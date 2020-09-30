@@ -1,24 +1,12 @@
-# todoclient
+# HaDoBit Front-end with VueJS and Bootstrap
 
-## Project setup
-```
-npm install
-```
+Started this to try out VueJS and am really liking it so far, so I am going to finish it with Vue.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [x] Sign-Up Page with Post request
+- [x] Log-in Page with Post request
+- [x] Main Task Page
+  - [x] Fetch weeks' tasks
+  - [ ] Create component for today's tasks
+  - [ ] Style
+- [ ] Conditional Log Out button
+- [ ] Deploy

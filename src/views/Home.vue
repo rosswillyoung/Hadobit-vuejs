@@ -1,18 +1,38 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="home text-center">
+    <div class="jumbotron">
+      <h1 class="display-3">{{ msg }}</h1>
+      <p class="lead">
+        This is a simple hero unit, a simple jumbotron-style component for
+        calling extra attention to featured content or information.
+      </p>
+      <hr class="my-4" />
+      <p>
+        It uses utility classes for typography and spacing to space content out
+        within the larger container.
+      </p>
+      <p class="lead">
+        <router-link
+          class="btn btn-primary btn-lg"
+          :to="{ name: 'signup' }"
+          role="button"
+          >Sign Up</router-link
+        >
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
+  name: "home",
+  components: {},
+  data() {
+    return {
+      msg: "Hello",
+    };
+  },
 };
 </script>
